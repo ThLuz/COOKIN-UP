@@ -2,12 +2,14 @@
 import type ICategorie from '@/interfaces/ICategorie';
 import type { PropType } from 'vue';
 import Tag from './Tag.vue';
+import SelectableIngredient from './SelectableIngredient.vue';
 
   export default {
-    components: { Tag },
+    components: { Tag, SelectableIngredient },
     props: {
       categorie: { type: Object as PropType<ICategorie>, required: true }
-    }
+    },
+    emits: ['addIngredient', 'removeIngredient']
   }
 </script>
 
@@ -22,7 +24,7 @@ import Tag from './Tag.vue';
 
       <ul class="categorie__ingredients">
         <li v-for="ingredient in categorie.ingredients" :key="ingredient">
-          <Tag :text="ingredient"/>
+          <SelectableIngredient :ingredient="ingredient" @addIngredient="$emit('addIngredient', $event)" @remove-ingredient="$emit('removeIngredient', $event)"/>
         </li>
       </ul>
     </header>

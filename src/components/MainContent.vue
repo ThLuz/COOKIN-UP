@@ -1,38 +1,31 @@
 <script lang="ts">
 import SelectIngredients from './SelectIngredients.vue';
 import Tag from './Tag.vue';
+import YourList from './YourList.vue';
 
-  export default {
-    components: { SelectIngredients, Tag },
-
-    data(){
-      return {
-        ingredients: ['Alho', 'Manteiga', 'Óregano']
-      }
-    }
+export default {
+  data() {
+    return {
+      ingredients: [] as string[]
+    };
+  },
+  components: { SelectIngredients, Tag, YourList },
+  methods: {
+    addIngredient(ingredient: string) {
+      this.ingredients.push(ingredient)
+    },
+    removeIngredient(ingredient: string) {
+      this.ingredients = this.ingredients.filter(iLista => ingredient !== iLista);
+    },
   }
+}
 </script>
 
 <template>
   <main class="main-content">
-    <section>
-      <span class="subtitle-lg your-list-text">
-        Sua Lista:
-      </span>
+    <YourList :ingredients="ingredients" />
 
-      <ul v-if="ingredients.length" class="ingredients-your-list">
-        <li v-for="ingredient in ingredients" :key="ingredient">
-          <Tag :text="ingredient" active/>
-        </li>
-      </ul>
-
-      <p v-else class="paragraph empty-list">
-        <img src="../assets/images/icones/lista-vazia.svg" alt="Ícone de pesquisa">
-        Sua lista está vazia, selecione ingredientes para iniciar.
-      </p>
-    </section>
-
-    <SelectIngredients/>
+    <SelectIngredients @addIngredient="addIngredient" @remove-ingredient="removeIngredient"/>
   </main>
 </template>
 
