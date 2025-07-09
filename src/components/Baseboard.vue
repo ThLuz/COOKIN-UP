@@ -1,6 +1,6 @@
 <template>
   <footer class="baseboard paragraph">
-    Desenvolvido por Thiago | 2023 - Projeto fictício sem fins comerciais.
+    Desenvolvido por Thiago | 2025 - Projeto fictício sem fins comerciais.
   </footer>
 </template>
 
