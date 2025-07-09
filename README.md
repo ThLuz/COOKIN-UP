@@ -1,40 +1,69 @@
-# cookin-up
+<p align="center">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" width="200" alt="Alura Logo"/>
+</p>
 
-This template should help get you started developing with Vue 3 in Vite.
+<h1 align="center">Alura Project 1.0 🚀</h1>
+<p align="center">✅ Done ✅</p>
 
-## Recommended IDE Setup
+<p align="center">
+  <img src="https://img.shields.io/badge/languages-2-green" />
+  <img src="https://img.shields.io/badge/repo%20size-XX%20MB-blue" />
+  <img src="https://img.shields.io/badge/made%20by-SeuNome-success" />
+  <img src="https://img.shields.io/badge/last%20commit-July%202025-orange" />
+  <img src="https://img.shields.io/badge/license-MIT-green" />
+  <img src="https://img.shields.io/github/stars/SeuUsuario/SeuRepositorio?style=social" />
+</p>
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+<p align="center">
+  <a href="#-sobre">Sobre</a> •
+  <a href="#-tecnologias">Tecnologias</a> •
+  <a href="#-layout">Layout</a> •
+  <a href="#-como-usar">Como usar</a> •
+  <a href="#-como-contribuir">Como contribuir</a> •
+  <a href="#-licença">Licença</a>
+</p>
 
-## Type Support for `.vue` Imports in TS
+---
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## ℹ️ Sobre
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+Este projeto foi desenvolvido como parte dos estudos na plataforma [Alura](https://www.alura.com.br/), com foco em **Vue.js** e **TypeScript**. O objetivo é consolidar os conhecimentos aprendidos nos cursos por meio da construção de uma aplicação prática e moderna.
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+---
 
-## Customize configuration
+## 💻 Tecnologias
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
-## Project Setup
+- [Vue.js 3](https://vuejs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Pinia](https://pinia.vuejs.org/) (opcional)
+- [Axios](https://axios-http.com/) (se consumir APIs)
 
-```sh
+---
+
+## 🎨 Layout
+
+Você pode visualizar um exemplo do layout abaixo:
+
+<p align="center">
+  <img src="https://via.placeholder.com/800x400.png?text=Insira+uma+imagem+do+seu+layout+aqui" alt="Layout Preview"/>
+</p>
+
+---
+
+## ▶️ Como usar
+
+```bash
+# Clone o repositório
+git clone https://github.com/SeuUsuario/SeuRepositorio.git
+
+# Acesse a pasta do projeto
+cd SeuRepositorio
+
+# Instale as dependências
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Rode a aplicação
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
