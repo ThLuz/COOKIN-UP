@@ -1,8 +1,9 @@
 <script lang="ts">
 import SelectIngredients from './SelectIngredients.vue';
+import Tag from './Tag.vue';
 
   export default {
-    components: { SelectIngredients },
+    components: { SelectIngredients, Tag },
 
     data(){
       return {
@@ -20,8 +21,8 @@ import SelectIngredients from './SelectIngredients.vue';
       </span>
 
       <ul v-if="ingredients.length" class="ingredients-your-list">
-        <li v-for="ingredient in ingredients" :key="ingredient" class="ingredient">
-          {{ ingredient }}
+        <li v-for="ingredient in ingredients" :key="ingredient">
+          <Tag :text="ingredient" active/>
         </li>
       </ul>
 
@@ -39,7 +40,7 @@ import SelectIngredients from './SelectIngredients.vue';
 .main-content {
   padding: 6.5rem 7.5rem;
   border-radius: 3.75rem 3.75rem 0rem 0rem;
-  background: var(--creme, #FFFAF3);
+  background: var(--cream, #FFFAF3);
   color: var(--cinza, #444);
 
   display: flex;
@@ -60,18 +61,6 @@ import SelectIngredients from './SelectIngredients.vue';
   justify-content: center;
   gap: 1rem 1.5rem;
   flex-wrap: wrap;
-}
-
-.ingredient {
-  display: inline-block;
-  border-radius: 0.5rem;
-  min-width: 4.25rem;
-  padding: 0.5rem;
-  text-align: center;
-    transition: 0.2s;
-    color: var(--creme, #FFFAF3);
-  background: var(--coral, #F0633C);
-  font-weight: 700;
 }
 
 .empty-list {

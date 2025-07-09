@@ -1,13 +1,13 @@
 :root {
-  --ocre: #D1451E;
+  --ocher: #D1451E;
   --coral: #F0633C;
-  --coral-claro: #FFDBD1;
-  --creme: #FFFAF3;
-  --verde-escuro: #263A29;
-  --verde-medio: #3D6D4A;
-  --cinza: #444444;
-  --cinza-claro: #EFEFEF;
-  --branco: #FFF;
+  --light-coral: #FFDBD1;
+  --cream: #FFFAF3;
+  --dark-green: #263A29;
+  --medium-green: #3D6D4A;
+  --gray: #444444;
+  --light-gray: #EFEFEF;
+  --white: #FFF;
 
   --font-family-padrao: Nunito Sans, sans-serif;
   --cabecalhos: Paytone One, sans-serif;

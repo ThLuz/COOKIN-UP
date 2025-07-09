@@ -18,7 +18,7 @@
 <style scoped>
 .banner {
   padding: 4rem 7.5rem;
-  color: var(--creme);
+  color: var(--cream);
 
   display: flex;
   justify-content: space-between;
@@ -36,7 +36,7 @@
 }
 
 .green-text {
-  color: var(--verde-medio, #3D6D4A);
+  color: var(--medium-green, #3D6D4A);
 }
 
 .banner-photo {
