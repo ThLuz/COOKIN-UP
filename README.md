@@ -12,13 +12,6 @@
   <img src="https://img.shields.io/github/stars/ThLuz/COOKIN-UP?style=social" />
 </p>
 
-<p align="center">
-  <a href="#-about">About</a> •
-  <a href="#-technologies">Technologies</a> •
-  <a href="#-layout">Layout</a> •
-  <a href="#getting-started">Getting Started</a> •
-</p>
-
 ---
 
 ## ℹ️ About
