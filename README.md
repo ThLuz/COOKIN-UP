@@ -53,7 +53,7 @@ The main goal is to build a modern and practical application that helps users di
 You can view a preview of the layout below:
 
 <p align="center">
-  <img src="https://imgur.com/a/PsTLGiP" alt="Layout Preview"/>
+  <img src="https://i.imgur.com/xJ0IJs6.png" alt="COOKIN-UP layout preview" />
 </p>
 
 ---
