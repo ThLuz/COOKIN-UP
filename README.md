@@ -16,7 +16,7 @@
   <a href="#-about">About</a> •
   <a href="#-technologies">Technologies</a> •
   <a href="#-layout">Layout</a> •
-  <a href="#-getting-started">Getting Started</a> •
+  <a href="#getting-started">Getting Started</a> •
 </p>
 
 ---
