@@ -9,7 +9,6 @@
   <img src="https://img.shields.io/github/repo-size/ThLuz/COOKIN-UP?color=blue" />
   <img src="https://img.shields.io/badge/made%20by-ThLuz-success" />
   <img src="https://img.shields.io/github/last-commit/ThLuz/COOKIN-UP?color=orange" />
-  <img src="https://img.shields.io/github/license/ThLuz/COOKIN-UP?color=green" />
   <img src="https://img.shields.io/github/stars/ThLuz/COOKIN-UP?style=social" />
 </p>
 
