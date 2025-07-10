@@ -26,9 +26,8 @@
 
 ## ℹ️ About
 
-**COOKIN-UP** is a project developed as part of the learning journey on the [Alura](https://www.alura.com.br/) platform, focusing on **Vue.js** and **TypeScript**.  
-The main goal is to build a modern and practical application that helps users discover recipes they can cook using only the ingredients they already have at home.
-
+**COOKIN-UP** is a project developed as part of the learning journey on the [Alura](https://www.alura.com.br) platform, focusing on **Vue.js** and **TypeScript**.  
+The main goal is to build a **modern, practical, and intuitive application** that helps users discover recipes they can cook using **only the ingredients they already have at home**.
 
 ---
 
