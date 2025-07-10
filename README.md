@@ -17,8 +17,6 @@
   <a href="#-technologies">Technologies</a> •
   <a href="#-layout">Layout</a> •
   <a href="#-getting-started">Getting Started</a> •
-  <a href="#-contributing">Contributing</a> •
-  <a href="#-license">License</a>
 </p>
 
 ---
