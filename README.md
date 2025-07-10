@@ -26,19 +26,25 @@
 
 ## ℹ️ About
 
-**COOKIN-UP** is a project developed as part of the learning journey on the [Alura](https://www.alura.com.br/) platform, focusing on **Vue.js** and **TypeScript**. The goal is to build a modern and practical application for managing recipes, ingredients, and cooking steps.
+**COOKIN-UP** is a project developed as part of the learning journey on the [Alura](https://www.alura.com.br/) platform, focusing on **Vue.js** and **TypeScript**.  
+The main goal is to build a modern and practical application that helps users discover recipes they can cook using only the ingredients they already have at home.
+
 
 ---
 
 ## 💻 Technologies
 
-This project was developed with the following technologies:
-
-- [Vue.js 3](https://vuejs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Vite](https://vitejs.dev/)
-- [Pinia](https://pinia.vuejs.org/) (optional)
-- [Axios](https://axios-http.com/) (if consuming APIs)
+<p align="center">
+  <a href="https://vuejs.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" alt="Vue.js Badge"/>
+  </a>
+  <a href="https://www.typescriptlang.org/" target="_blank">
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript Badge"/>
+  </a>
+  <a href="https://vitejs.dev/" target="_blank">
+    <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E" alt="Vite Badge"/>
+  </a>
+</p>
 
 ---
 
@@ -47,7 +53,7 @@ This project was developed with the following technologies:
 You can view a preview of the layout below:
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=COOKIN-UP+layout+preview" alt="Layout Preview"/>
+  <img src="https://imgur.com/a/PsTLGiP" alt="Layout Preview"/>
 </p>
 
 ---
